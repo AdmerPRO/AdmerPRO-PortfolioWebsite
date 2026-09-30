@@ -432,6 +432,12 @@ code {
     box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.2),
         0 0 25px rgba(255, 60, 60, 0.05);
+
+    text-decoration: none;
+}
+
+.project-card:hover * {
+    text-decoration: none;
 }
 
 .project-header {
@@ -469,6 +475,20 @@ code {
 
     border: 1px solid rgba(255, 90, 90, 0.15);
     border-radius: 6px;
+}
+
+.project-role {
+    display: block;
+    margin-bottom: 8px;
+
+    font-family: monospace;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+
+    color: #ff7777;
+    opacity: 0.8;
 }
 
 /* =========================
